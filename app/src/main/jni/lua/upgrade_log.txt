@@ -1,0 +1,21 @@
+# Lua 5.4.8 到 5.5.0 升级日志
+
+## 升级方式
+- 逐个文件比对官方源代码差异
+- 仅更新官方有变化的部分
+- 保留所有项目特有修改
+
+## 自定义文件列表
+- llibc.c
+- lptrlib.c
+- lsign.c
+- lsmgrlib.c
+- ltranslator.c
+- ltests.c
+- ludatalib.c
+- lboolib.c
+- ltests.h
+- ltranslator.h
+- unidata.h
+
+## 升级记录

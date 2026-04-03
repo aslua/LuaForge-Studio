@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 通用 -->
+    <string name="app_name">LuaForge Studio</string>
+    <string name="accsibility_service_description">辅助功能</string>
+    <string name="open_drawer">打开侧滑</string>
+    <string name="close_drawer">关闭侧滑</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="delete">删除</string>
+    <string name="save">保存</string>
+    <string name="settings">设置</string>
+    <string name="about">关于</string>
+    <string name="projects">项目</string>
+    <string name="search">搜索</string>
+    <string name="close_search">关闭搜索</string>
+    <string name="clear">清除</string>
+    <string name="sort">排序</string>
+    <string name="more">更多</string>
+    <string name="create_project">创建项目</string>
+    <string name="import_source">导入源码</string>
+    <string name="share">分享</string>
+    <string name="pin">置顶</string>
+    <string name="unpin">撤顶</string>
+    <string name="overwrite">覆盖</string>
+    <string name="clone">共存</string>
+    <string name="debug_mode">调试模式</string>
+
+    <!-- 项目相关 -->
+    <string name="project_deleted">项目已删除: %s</string>
+    <string name="share_failed_cannot_compress">分享失败，无法压缩项目</string>
+    <string name="preparing_share">正在准备分享项目…</string>
+    <string name="no_projects">暂无项目</string>
+    <string name="create_first_project">点击右下角按钮创建第一个项目</string>
+    <string name="modified_time">修改时间: %s</string>
+    <string name="version_label">版本: %s</string>
+    <string name="project_name_label">项目名称: %s</string>
+    <string name="project_path_label">项目路径: %s</string>
+
+    <!-- 删除对话框 -->
+    <string name="delete_project_title">删除项目</string>
+    <string name="delete_project_confirm">确定要删除项目吗？</string>
+    <string name="delete_project_warning">注意: 此操作不可恢复，项目文件夹及其所有文件将被永久删除。</string>
+    <string name="delete_failed">删除失败: %s</string>
+
+    <!-- 导入源码对话框 -->
+    <string name="import_source_title">导入源码</string> <!-- 值重复，但保留首次出现 -->
+    <string name="import_source_package_name">包名: %s</string>
+    <string name="import_source_file_path">文件路径: %s</string>
+    <string name="config_file_not_found">配置文件(settings.json)不存在</string>
+    <string name="parse_failed">解析文件失败: %s</string>
+    <string name="import_success">导入成功</string>
+    <string name="import_failed">导入失败: %s</string>
+    <string name="invalid_project_name">项目名称无效</string>
+
+    <!-- 项目已存在对话框 -->
+    <string name="project_exists_title">项目已存在</string>
+    <string name="project_exists_message">项目 \'%s\' 已存在，请选择操作:</string>
+
+    <!-- 排序菜单 -->
+    <string name="sort_name_asc">名称 (A-Z)</string>
+    <string name="sort_name_desc">名称 (Z-A)</string>
+    <string name="sort_date_newest">修改时间 (最新)</string>
+    <string name="sort_date_oldest">修改时间 (最早)</string>
+
+    <!-- 搜索占位符 -->
+    <string name="search_placeholder">搜索项目…</string>
+    <string name="share_project">分享项目</string>
+
+    <!-- 内容描述 (Content Description) -->
+    <string name="cd_logo">Logo</string>
+    <string name="cd_menu">打开菜单</string>
+    <string name="cd_add">添加</string>
+    <string name="cd_project_folder">项目文件夹</string>
+    <string name="cd_project_icon">项目图标</string>
+    <string name="cd_pinned">置顶项目</string>
+    <string name="cd_more_options">更多操作</string>
+
+    <!-- 关于页面 -->
+    <string name="tech_stack_title">Tech Stack</string>
+    <string name="community_title">Community</string>
+    <string name="licenses_title">Licenses</string>
+    <string name="qq_group_name">官方交流群</string>
+    <string name="qq_group_number">655320112</string>
+    <string name="no_license_info">暂无协议信息</string>
+    <string name="loading_doc">加载文档中…</string>
+    <string name="error_doc_not_found">文档文件不存在: %s</string>
+    <string name="error_check_failed">检查文件失败: %s</string>
+    <string name="unknown_error">未知错误</string>
+    <string name="file_label">文件: %s</string>
+    <string name="author_note">LuaForge Studio 致力于为 Lua 开发者提供最佳的移动端开发体验，支持完整的 Lua 5.5 标准库和常用扩展。</string>
+    <string name="build_time_label">构建时间: %s</string>
+    <string name="close">关闭</string>
+    <string name="copy">复制</string>
+    <string name="visit_website">访问网站</string>
+    <string name="license_label">许可证</string>
+
+    <!-- 开发人员信息 -->
+    <string name="dev_w_name">W.</string>
+    <string name="dev_w_role">Developer</string>
+    <string name="dev_kotlin_name">Kotlin</string>
+    <string name="dev_kotlin_role">Language</string>
+    <string name="dev_lua_name">Lua 5.5</string>
+    <string name="dev_lua_role">Core Engine</string>
+    <string name="dev_android_name">Android</string>
+    <string name="dev_android_role">Platform</string>
+    <string name="dev_compose_name">Jetpack Compose</string>
+    <string name="dev_compose_role">UI Framework</string>
+
+    <!-- 版权和版本 -->
+    <string name="copyright">© %s LuaForge Studio</string>
+    <string name="version">版本 %s</string>
+
+    <!-- 卡片标题 -->
+    <string name="settings_theme_appearance">主题与外观</string>
+    <string name="settings_app_icon">应用图标</string>
+    <string name="settings_editor_config">编辑器配置</string>
+    <string name="settings_notification_toast">通知提示</string>
+    <string name="settings_syntax_highlight">语法高亮颜色</string>
+
+    <!-- 主题与外观 -->
+    <string name="settings_theme_color">主题颜色</string>
+    <string name="settings_theme_green">绿色</string>
+    <string name="settings_theme_blue">蓝色</string>
+    <string name="settings_theme_pink">粉色</string>
+    <string name="settings_theme_mode">主题模式</string>
+    <string name="settings_theme_follow_system">跟随系统</string>
+    <string name="settings_theme_light">亮色</string>
+    <string name="settings_theme_dark">暗色</string>
+    <string name="settings_dynamic_color">动态取色</string>
+    <string name="settings_dynamic_color_desc">使用系统动态颜色主题（Android 12+）</string>
+    <string name="settings_shape_corner">形状圆角</string>
+    <string name="settings_shape_small">小</string>
+    <string name="settings_shape_medium_small">中小</string>
+    <string name="settings_shape_medium">中</string>
+    <string name="settings_shape_large">大</string>
+    <string name="settings_font_small">小</string>
+    <string name="settings_font_medium_small">中小</string>
+    <string name="settings_font_large">大</string>
+    <string name="settings_font_size">字体大小</string>
+    <string name="settings_font_standard">标准</string>
+    <string name="settings_font_extra_large">特大</string>
+    <string name="settings_font_family">字体样式</string>
+    <string name="settings_select_font_family">选择字体样式</string>
+    <string name="settings_font_default">默认字体</string>
+    <string name="settings_font_sans_serif">无衬线字体</string>
+    <string name="settings_font_serif">衬线字体</string>
+    <string name="settings_font_monospace">等宽字体</string>
+    <string name="settings_font_josefin_sans">Josefin Sans</string>
+    <string name="settings_select_app_icon">选择桌面图标样式</string>
+    <string name="settings_icon_default">默认</string>
+    <string name="settings_icon_adaptive">Adaptive</string>
+    <string name="settings_icon_restart_to_effect">重新启动则生效</string>
+    <string name="settings_app_language">应用语言</string>
+    <string name="language_chinese">中文</string>
+    <string name="language_english">English</string>
+    <string name="settings_swipe_gesture">滑动手势</string>
+    <string name="settings_swipe_gesture_desc">在编辑器中上下滑动隐藏/显示快捷功能栏</string>
+
+    <!-- 编辑器配置 -->
+    <string name="settings_editor_font">编辑器字体</string>
+    <string name="settings_select_editor_font">选择编辑器字体</string>
+    <string name="settings_font_jetbrains_mono">JetBrains Mono</string>
+    <string name="settings_font_fira_code">Fira Code</string>
+    <string name="settings_font_custom">自定义字体</string>
+    <string name="settings_font_file_path">字体文件路径</string>
+    <string name="settings_font_file_placeholder">例如: /sdcard/Downloads/myfont.ttf</string>
+    <string name="settings_font_file_hint">请输入.ttf或.otf字体文件的完整路径</string>
+    <string name="settings_font_file_invalid">无效的字体文件路径</string>
+    <string name="settings_font_file_valid">字体文件有效</string>
+    <string name="settings_tab_history">标签栏历史记录</string>
+    <string name="settings_tab_history_desc">开启时会在进入编辑器时显示所有历史标签，关闭时只打开最后一个文件</string>
+    <string name="settings_indent_guide">缩进提示符</string>
+    <string name="settings_indent_guide_desc">在编辑器中显示垂直的缩进参考线，帮助对齐代码</string>
+    <string name="settings_completion_case_sensitive">补全大小写敏感</string>
+    <string name="settings_completion_case_sensitive_desc">代码补全是否区分大小写</string>
+    <string name="settings_smart_sorting">智能排序</string>
+    <string name="settings_smart_sorting_desc">根据使用频率自动排序快捷功能和符号栏</string>
+    <string name="settings_hex_color_highlight">十六进制颜色高亮</string>
+    <string name="settings_hex_color_highlight_desc">显示十六进制颜色</string>
+
+    <!-- 通知提示 -->
+    <string name="settings_toast_position">弹出位置</string>
+    <string name="settings_toast_top">顶部</string>
+    <string name="settings_toast_bottom">底部</string>
+    <string name="settings_toast_border">显示边框</string>
+    <string name="settings_toast_border_desc">为提示框添加轮廓边框</string>
+
+    <!-- 语法高亮颜色 -->
+    <string name="settings_class_name_color">类名高亮</string>
+    <string name="settings_class_name_color_desc">设置类名的高亮颜色</string>
+    <string name="settings_local_variable_color">局部变量高亮</string>
+    <string name="settings_local_variable_color_desc">设置局部变量的高亮颜色</string>
+    <string name="settings_keyword_color">关键词高亮</string>
+    <string name="settings_keyword_color_desc">设置关键词的高亮颜色</string>
+    <string name="settings_function_name_color">函数名高亮</string>
+    <string name="settings_function_name_color_desc">设置函数名的高亮颜色</string>
+    <string name="settings_literal_color">字符串文字高亮</string>
+    <string name="settings_literal_color_desc">设置字符串文字的高亮颜色</string>
+    <string name="settings_comment_color">注释高亮</string>
+    <string name="settings_comment_color_desc">设置注释的高亮颜色</string>
+    <string name="settings_selected_line_background">选中行背景</string>
+    <string name="settings_selected_line_background_desc">设置当前选中行的背景颜色</string>
+    <string name="settings_reset_default_colors">重置为默认颜色</string>
+
+    <!-- 颜色选择器对话框 -->
+    <string name="color_picker_select_color">选择颜色</string>
+    <string name="color_picker_hex_label">#</string>
+    <string name="color_picker_rgb_label">RGB</string>
+    <string name="color_picker_hsv_label">HSV</string>
+    <string name="color_picker_hsl_label">HSL</string>
+    <string name="color_picker_red">R</string>
+    <string name="color_picker_green">G</string>
+    <string name="color_picker_blue">B</string>
+    <string name="color_picker_alpha">A</string>
+    <string name="color_picker_hue">H</string>
+    <string name="color_picker_saturation">S</string>
+    <string name="color_picker_value">V</string>
+    <string name="color_picker_lightness">L</string>
+
+    <string name="settings_icon_switch_failed">图标切换失败: %s</string>
+    <string name="settings_reset">重置</string>
+
+    <!-- 欢迎页面 -->
+    <string name="welcome_subtitle">专业 Lua 开发环境</string>
+    <string name="welcome_feature_editor_title">智能编辑器</string>
+    <string name="welcome_feature_editor_desc">Lua 语法高亮与智能补全</string>
+    <string name="welcome_feature_run_title">实时运行</string>
+    <string name="welcome_feature_run_desc">即时编译与调试 Lua 代码</string>
+    <string name="welcome_feature_project_title">项目管理</string>
+    <string name="welcome_feature_project_desc">轻松组织多个 Lua 项目</string>
+    <string name="welcome_permissions_title">权限设置</string>
+    <string name="welcome_permissions_desc">需要以下权限来管理您的项目文件</string>
+    <string name="welcome_permissions_all_granted">✓ 所有权限已授权</string>
+    <string name="welcome_permissions_request">请授权以下权限以继续</string>
+    <string name="welcome_permission_storage_name_all">所有文件访问</string>
+    <string name="welcome_permission_storage_desc_all">用于完全管理所有项目文件和文件夹</string>
+    <string name="welcome_permission_storage_name_legacy">存储权限</string>
+    <string name="welcome_permission_storage_desc_legacy">用于读取和保存项目文件和代码</string>
+    <string name="welcome_permission_network_name">网络权限</string>
+    <string name="welcome_permission_network_desc">用于下载依赖和更新</string>
+    <string name="welcome_permission_special_badge">特殊权限</string>
+    <string name="welcome_permission_granted_badge">已授权</string>
+    <string name="welcome_permission_tap_to_grant">点击授权</string>
+    <string name="welcome_permission_info_title">权限说明</string>
+    <string name="welcome_permission_info_text">这些权限仅用于项目文件的管理和存储，不会访问您的个人数据。\n授权后，您可以创建、编辑和保存 Lua 项目文件。\n您可以随时在系统设置中修改这些权限。</string>
+    <string name="welcome_android_version">适用于 Android %s+</string>
+    <string name="welcome_step_previous">上一步</string>
+    <string name="welcome_step_next">下一步</string>
+    <string name="welcome_start">开始使用</string>
+    <string name="welcome_skip">跳过</string>
+
+    <!-- 新建项目页面 -->
+    <string name="new_project_title_select_template">选择模板</string>
+    <string name="new_project_title_project_info">项目信息</string>
+    <string name="new_project_template_selected">已选模板: %s</string>
+    <string name="new_project_icon_select_hint">点击上方区域选择项目图标（可选）</string>
+    <string name="new_project_basic_info_title">基本信息</string>
+    <string name="new_project_name_label">项目名称</string>
+    <string name="new_project_name_hint">输入项目名称</string>
+    <string name="new_project_package_label">包名 (Package Name)</string>
+    <string name="new_project_package_hint">如: com.example.myapp</string>
+    <string name="new_project_global_utils_title">全局Utils</string>
+    <string name="new_project_global_utils_desc">选择需要导入的全局工具类（长按查看文档）</string>
+    <string name="new_project_loading_templates">加载模板中…</string>
+    <string name="new_project_no_templates">暂无可用模板</string>
+    <string name="new_project_no_templates_hint">请在 assets/templates 中添加模板文件</string>
+    <string name="new_project_name_empty_error">请输入项目名称</string>
+    <string name="new_project_package_empty_error">包名不能为空</string>
+    <string name="new_project_template_not_selected_error">请选择一个模板</string>
+    <string name="new_project_name_exists_error">项目名称已存在，请使用其他名称</string>
+    <string name="new_project_invalid_package_error">包名格式不正确，只能包含字母、数字、点和下划线</string>
+    <string name="new_project_create_success">项目创建成功</string>
+    <string name="new_project_create_failed">创建失败: %s</string>
+    <string name="new_project_permission_needed">需要文件访问权限才能创建项目</string>
+    <string name="new_project_permission_denied">需要存储权限才能创建项目</string>
+    <string name="new_project_default_icon_content_desc">默认项目图标</string>
+    <string name="new_project_template_preview_content_desc">模板预览</string>
+
+    <!-- Java API 阅览器 -->
+    <string name="java_api_title">API 阅览器</string>
+    <string name="java_api_search_placeholder">搜索类名…</string>
+    <string name="java_api_search_members_placeholder">搜索成员…</string>
+    <string name="java_api_filter_category">分类</string>
+    <string name="java_api_category_all">全部</string>
+    <string name="java_api_category_android">android</string>
+    <string name="java_api_category_androidx">AndroidX类</string>
+    <string name="java_api_category_material">谷歌质感类</string>
+    <string name="java_api_category_androlua">androlua</string>
+    <string name="java_api_category_luaforge">luaforge</string>
+    <string name="java_api_category_gson">Gson类</string>
+    <string name="java_api_category_glide">Glide类</string>
+    <string name="java_api_category_okhttp">OkHttp类</string>
+    <string name="java_api_category_r">R资源类</string>
+    <string name="java_api_category_util">工具/助手类</string>
+    <string name="java_api_category_interface">接口类</string>
+    <string name="java_api_category_abstract">抽象类</string>
+    <string name="java_api_tab_constructors">构造器</string>
+    <string name="java_api_tab_methods">方法</string>
+    <string name="java_api_tab_fields">字段</string>
+    <string name="java_api_tab_superclasses">父类</string>
+    <string name="java_api_tab_interfaces">接口</string>
+    <string name="java_api_tab_innerclasses">内部类</string>
+    <string name="java_api_details">详情</string>
+    <string name="java_api_copy_import">复制导入类</string>
+    <string name="java_api_view_api">查看API</string>
+    <string name="java_api_constructor_detail">构造详情</string>
+    <string name="java_api_method_detail">方法详情</string>
+    <string name="java_api_field_detail">字段详情</string>
+    <string name="java_api_class_name_copied">已复制类名到剪贴板</string>
+    <string name="java_api_import_statement_copied">已复制导入语句</string>
+    <string name="java_api_copy_success">已复制到剪贴板</string>
+    <string name="java_api_copy_label">已复制 %s</string>
+    <string name="java_api_loading">加载中…</string>
+    <string name="java_api_load_failed">加载失败: %s</string>
+    <string name="java_api_no_info">无信息</string>
+    <string name="java_api_no_content">没有可显示的内容</string>
+    <string name="java_api_ambiguous_title">选择具体类名</string>
+    <string name="java_api_field_name">名称</string>
+    <string name="java_api_field_modifiers">修饰符</string>
+    <string name="java_api_field_type">类型</string>
+    <string name="java_api_field_return_type">返回类型</string>
+    <string name="java_api_field_parameters">参数</string>
+    <string name="java_api_full_class_name">完整类名</string>
+    <string name="java_api_preview_unable_to_get_res_id">无法获取资源 ID</string>
+    <string name="java_api_preview_invalid_color">颜色资源无效</string>
+    <string name="java_api_preview_unable_to_get_string">无法获取字符串</string>
+    <string name="java_api_preview_boolean">布尔值: %s</string>
+    <string name="java_api_preview_dimension">尺寸: %s px</string>
+    <string name="java_api_preview_integer">整数: %s</string>
+    <string name="java_api_preview_unable_to_load_font">无法加载字体</string>
+    <string name="java_api_preview_resource_id">资源 ID: %d</string>
+
+    <!-- 代码编辑器 -->
+    <string name="code_editor_open">打开</string>
+    <string name="code_editor_new">新建</string>
+    <string name="code_editor_format">格式化</string>
+    <string name="code_editor_layout_helper">布局助手</string>
+    <string name="code_editor_project_property">项目属性</string>
+    <string name="code_editor_build">构建项目</string>
+    <string name="code_editor_analyse">导入分析</string>
+    <string name="code_editor_api_viewer">API阅览器</string>
+    <string name="code_editor_backup">备份</string>
+    <string name="code_editor_palette">调色板</string>
+    <string name="code_editor_undo">撤销</string>
+    <string name="code_editor_redo">重做</string>
+    <string name="code_editor_run">运行</string>
+    <string name="code_editor_more">更多选项</string>
+    <string name="code_editor_edit">编辑…</string>
+    <string name="code_editor_compile_file">编译文件</string>
+    <string name="code_editor_compiling">编译中…</string>
+    <string name="code_editor_save_all">全部保存</string>
+    <string name="code_editor_format_code">代码对齐</string>
+    <string name="code_editor_clear_cache">清理缓存</string>
+    <string name="code_editor_auto_wrap">自动换行</string>
+    <string name="code_editor_search_placeholder">搜索…</string>
+    <string name="code_editor_replace_placeholder">替换…</string>
+    <string name="code_editor_replace">替换</string>
+    <string name="code_editor_replace_all">全部</string>
+    <string name="code_editor_previous">上一个</string>
+    <string name="code_editor_next">下一个</string>
+    <string name="code_editor_select_type">选择类型:</string>
+    <string name="code_editor_file">文件</string>
+    <string name="code_editor_folder">文件夹</string>
+    <string name="code_editor_enter_name">请输入名称:</string>
+    <string name="code_editor_choose_suffix">选择后缀</string>
+    <string name="code_editor_create_in">将在以下目录创建:\n%s</string>
+    <string name="code_editor_create">创建</string>
+    <string name="code_editor_file_tree">文件树</string>
+    <string name="code_editor_no_file_open">未打开任何文件</string>
+    <string name="code_editor_close_other">关闭其他</string>
+    <string name="code_editor_close_all">关闭全部</string>
+    <string name="code_editor_bottom_area_content">底部区域内容</string>
+    <string name="code_editor_build_success">构建成功</string>
+    <string name="code_editor_apk_built">APK 构建成功！</string>
+    <string name="code_editor_apk_path">%s</string>
+    <string name="code_editor_install_prompt">是否立即安装此 APK？</string>
+    <string name="code_editor_install">安装</string>
+    <string name="code_editor_compile_success">编译成功！编译文件: %s</string>
+    <string name="code_editor_compile_failed">编译失败: %s</string>
+    <string name="code_editor_compile_exception">编译异常: %s</string>
+    <string name="code_editor_only_lua_aly">只能编译 .lua 或 .aly 文件</string>
+    <string name="code_editor_build_failed">构建失败: %s</string>
+    <string name="code_editor_build_exception">构建异常: %s</string>
+    <string name="code_editor_install_not_found">未找到安装程序</string>
+    <string name="code_editor_install_permission_denied">权限不足，无法安装APK</string>
+    <string name="code_editor_install_failed">安装失败: %s</string>
+    <string name="code_editor_backup_success">备份成功！保存路径: %s</string>
+    <string name="code_editor_backup_failed">备份失败: %s</string>
+    <string name="code_editor_backing_up">正在备份…</string>
+    <string name="code_editor_creating">正在创建…</string>
+    <string name="code_editor_file_created">文件创建成功</string>
+    <string name="code_editor_file_create_failed">文件创建失败</string>
+    <string name="code_editor_folder_created">文件夹创建成功</string>
+    <string name="code_editor_folder_create_failed">文件夹创建失败</string>
+    <string name="code_editor_file_exists">文件已存在</string>
+    <string name="code_editor_folder_exists">文件夹已存在</string>
+    <string name="code_editor_enter_file_name">请输入文件名</string>
+    <string name="code_editor_no_active_file">没有打开的文件</string>
+    <string name="code_editor_current_file_not_supported">当前文件不支持</string>
+    <string name="code_editor_cannot_get_content">无法获取文件内容</string>
+    <string name="code_editor_layout_helper_not_installed">布局助手未安装</string>
+    <string name="code_editor_run_env_not_found">无法启动 Lua 运行环境</string>
+    <string name="code_editor_run_permission_denied">权限不足，无法启动运行环境</string>
+    <string name="code_editor_run_failed">启动失败: %s</string>
+    <string name="code_editor_main_lua_not_found">未找到 main.lua 文件</string>
+    <string name="code_editor_cache_cleared">项目缓存已清理</string>
+    <string name="code_editor_clear_cache_failed">清理失败: %s</string>
+    <string name="code_editor_more_tabs">更多标签</string>
+    <string name="select_copy_format">选择复制格式</string>
+    <string name="downloading_dependencies">正在下载依赖</string>
+    <string name="download_progress_file">正在下载: %s</string>
+    <string name="download_progress_count_and_size">%d / %d · %s / %s</string>
+
+    <string name="editor_back">返回</string>
+    <string name="editor_from_left">从左侧</string>
+    <string name="editor_select_file">选择文件开始编辑</string>
+    <string name="editor_build_settings_not_found">未找到 settings.json 文件</string>
+    <string name="editor_build_parse_settings_failed">解析 settings.json 失败: %s</string>
+    <string name="editor_build_out_of_memory">内存不足，构建失败</string>
+    <string name="editor_backup_dir_create_failed">无法创建备份目录</string>
+    <string name="editor_backup_success">备份成功，保存到: %s</string>
+    <string name="editor_install_apk_not_exists">APK文件不存在</string>
+    <string name="editor_unknown_path">未知路径</string>
+
+    <!-- 导入分析页面 -->
+    <string name="analyse_select_all">全选</string>
+    <string name="analyse_invert_selection">反选</string>
+    <string name="analyse_deselect_all">取消全选</string>
+    <string name="analyse_copy_selected">复制选中</string>
+    <string name="analyse_no_classes_detected">未检测到可导入的 Java 类</string>
+    <string name="analyse_loading">分析中…</string>
+    <string name="analyse_analysis_failed">分析失败: %s</string>
+    <string name="analyse_please_select_classes">请先选择要导入的类</string>
+    <string name="analyse_import_copied">已复制 %d 条导入语句</string>
+    <string name="analyse_multiple_ambiguous">存在多个同名类，请逐一选择</string>
+    <string name="analyse_more_items">+%d</string>
+    <string name="editor_run_failed">运行失败</string>
+
+    <!-- 属性页面 -->
+    <string name="attribute_icon_change_hint">点击更换项目图标</string>
+    <string name="attribute_app_name">应用名称</string>
+    <string name="attribute_package_name">包名</string>
+    <string name="attribute_version_name">版本名称</string>
+    <string name="attribute_version_code">版本代码</string>
+    <string name="attribute_sdk_title">SDK 版本</string>
+    <string name="attribute_min_sdk">最小 SDK</string>
+    <string name="attribute_target_sdk">目标 SDK</string>
+    <string name="attribute_debug_enable">启用调试模式</string>
+    <string name="attribute_permission_title">权限</string>
+    <string name="attribute_permission_count">已选择 %d 个权限</string>
+    <string name="attribute_permission_manage">管理权限</string>
+    <string name="attribute_permission_select_title">选择权限</string>
+    <string name="attribute_permission_search_placeholder">搜索权限…</string>
+    <string name="attribute_global_utils_title">全局工具</string>
+    <string name="attribute_global_utils_hint">选择需要导入的工具类（长按查看文档）</string>
+    <string name="attribute_save_success">保存成功</string>
+    <string name="attribute_save_failed">保存失败: %s</string>
+
+    <!-- 全局工具名称 -->
+    <string name="global_util_bitmap">BitmapUtil</string>
+    <string name="global_util_glide">GlideUtil</string>
+    <string name="global_util_okhttp">OkHttpUtil</string>
+    <string name="global_util_ui">UiUtil</string>
+    <string name="global_util_recycler">RecyclerAdapterUtil</string>
+    <string name="global_util_theme">ThemeUtil</string>
+
+    <!-- SDK 版本描述 -->
+    <string name="sdk_21">API 21 (Lollipop, Android 5.0)</string>
+    <string name="sdk_22">API 22 (Lollipop, Android 5.1)</string>
+    <string name="sdk_23">API 23 (Marshmallow, Android 6.0)</string>
+    <string name="sdk_24">API 24 (Nougat, Android 7.0)</string>
+    <string name="sdk_25">API 25 (Nougat, Android 7.1.1)</string>
+    <string name="sdk_26">API 26 (Oreo, Android 8.0)</string>
+    <string name="sdk_27">API 27 (Oreo, Android 8.1)</string>
+    <string name="sdk_28">API 28 (Pie, Android 9.0)</string>
+    <string name="sdk_29">API 29 (Q, Android 10.0)</string>
+    <string name="sdk_30">API 30 (R, Android 11.0)</string>
+    <string name="sdk_31">API 31 (S, Android 12.0)</string>
+    <string name="sdk_32">API 32 (Sv2, Android 12L)</string>
+    <string name="sdk_33">API 33 (Tiramisu, Android 13.0)</string>
+    <string name="sdk_34">API 34 (UpsideDownCake, Android 14.0)</string>
+    <string name="sdk_35">API 35 (VanillaIceCream, Android 15.0)</string>
+    <string name="sdk_36">API 36 (Baklava, Android 16.0)</string>
+
+    <string name="unknown">未知</string>
+
+    <!-- ApkBuilder 错误 -->
+    <string name="apk_builder_error_extract_core">error: 无法提取核心APK文件</string>
+    <string name="apk_builder_error_modify_manifest">error: 修改AndroidManifest.xml失败</string>
+    <string name="apk_builder_error_add_files">error: 添加项目文件到APK失败</string>
+    <string name="apk_builder_error_sign">error: APK签名失败</string>
+    <string name="apk_builder_error_build_failed">error: 构建失败: %s</string>
+    <string name="apk_builder_error_encrypt_lua_failed">error: 加密Lua文件失败: %s</string>
+    <string name="apk_builder_error_encrypted_file_not_exists">error: 加密后的文件不存在: %s</string>
+    <string name="apk_builder_error_lua_compile_failed">error: Lua文件编译失败: %s</string>
+    <string name="apk_builder_error_aly_compile_failed">error: ALY文件编译失败: %s</string>
+    <string name="apk_builder_error_lua_state_invalid">error: LuaState无效或已关闭</string>
+    <string name="apk_builder_error_project_dir_not_exists">error: 项目目录不存在: %s</string>
+    <string name="apk_builder_error_source_dir_not_exists">error: 源目录不存在: %s</string>
+    <string name="apk_builder_error_zipalign_failed">error: 对齐APK失败</string>
+
+    <!-- FileTree - 文件操作菜单 -->
+    <string name="filetree_new_file">新建文件</string>
+    <string name="filetree_new_folder">新建文件夹</string>
+    <string name="filetree_rename">重命名</string>
+    <string name="filetree_copy_path">复制绝对路径</string>
+
+    <!-- FileTree - 删除确认对话框 -->
+    <string name="filetree_delete_confirm_title">确认删除</string>
+    <string name="filetree_delete_confirm_message">你确定要删除文件/文件夹吗？</string>
+    <string name="filetree_delete_confirm_name">名称: %s</string>
+    <string name="filetree_delete_confirm_path">路径: %s</string>
+    <string name="filetree_delete_confirm_warning">注意: 此操作不可恢复，删除的文件/文件夹将无法找回。</string>
+
+    <!-- FileTree - 新建文件对话框 -->
+    <string name="filetree_new_file_prompt">请输入文件名：</string>
+    <string name="filetree_new_file_hint">文件名</string>
+
+    <!-- FileTree - 新建文件夹对话框 -->
+    <string name="filetree_new_folder_prompt">请输入文件夹名：</string>
+    <string name="filetree_new_folder_hint">文件夹名</string>
+
+    <!-- FileTree - 重命名对话框 -->
+    <string name="filetree_rename_prompt">请输入新名称：</string>
+    <string name="filetree_rename_hint">新名称</string>
+
+    <!-- FileTree - Toast 消息 -->
+    <string name="filetree_folder_create_failed">创建失败</string>
+    <string name="filetree_rename_success">重命名成功</string>
+    <string name="filetree_rename_failed">重命名失败</string>
+    <string name="filetree_path_copied">路径已复制</string>
+
+    <!-- AboutScreen 新增 -->
+    <string name="about_unknown_license">未知许可证</string>
+    <string name="about_unknown_library">未知库</string>
+    <string name="about_no_license_info">无许可证信息</string>
+    <string name="about_see_website">请查看项目网站获取许可证</string>
+    <string name="about_version_prefix">v</string>
+
+    <!-- FilePicker 新增资源 -->
+    <string name="file_picker_select_file">选择文件</string>
+    <string name="file_picker_select_directory">选择目录</string>
+    <string name="file_picker_root">根目录</string>
+    <string name="file_picker_primary_storage">主存储</string>
+    <string name="file_picker_file_type">文件类型</string>
+    <string name="file_picker_clear_selection">清除选择</string>
+    <string name="file_picker_hidden">H</string>
+    <string name="file_picker_select_this_directory">选择此目录</string>
+    <string name="file_size_unit_kb">KB</string>
+    <string name="file_size_unit_mb">MB</string>
+    <string name="file_size_unit_gb">GB</string>
+    <string name="file_size_unit_b">B</string>
+
+    <!-- MarkdownDialog 新增 -->
+    <string name="error">错误</string>
+
+    <!-- CrashLogListDialog -->
+    <string name="crash_log_title">崩溃日志</string>
+    <string name="crash_log_clear">清除所有日志</string>
+    <string name="crash_log_empty">暂无崩溃日志</string>
+    <string name="crash_log_count">共 %d 个崩溃日志文件</string>
+    <string name="crash_log_time">时间: %s</string>
+    <string name="crash_log_size">大小: %.2f KB</string>
+    <string name="crash_log_view">查看</string>
+    <string name="crash_log_cleared">已清除所有崩溃日志</string>
+    <string name="crash_log_clear_failed">清除失败</string>
+
+    <!-- CrashInfoScreen -->
+    <string name="crash_info_title">应用崩溃</string>
+    <string name="crash_info_copy_crash_log">复制崩溃信息</string>
+    <string name="crash_info_exit_the_app">退出应用</string>
+    <string name="crash_info_copied">崩溃信息已复制到剪贴板</string>
+    
+    <!-- 新建项目 - 模板选择相关 -->
+<string name="new_project_version_not_selected_error">请选择一个 AndroLua 版本</string>
+<string name="new_project_version_title">AndroLua 版本</string>
+<string name="new_project_complex_libraries_title">复杂库</string>
+<string name="new_project_jar_libraries_title">Jar 库</string>
+<string name="new_project_simple_libraries_title">Lua 和 so 库</string>
+
+<string name="code_editor_terminal">终端</string>
+
+</resources>

@@ -1,0 +1,10 @@
+{
+  "application": {
+    "label": "布局助手",
+    "debugmode": true
+  },
+  "global_utils": [
+    "UiUtil",
+    "BitmapUtil"
+  ]
+}
