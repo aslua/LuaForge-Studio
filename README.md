@@ -3,7 +3,7 @@
 ## 1.2.1
 - 增加 onActivityReenter 回调函数
 
-# Lua 扩展语法完整参考文档
+# Lua 扩展语法
 
 ## 1. 概述
 
