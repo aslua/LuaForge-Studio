@@ -101,6 +101,7 @@ public class LuaActivity extends AppCompatActivity
   private LuaObject mOnKeyUp;
   private LuaObject mOnKeyLongPress;
   private LuaObject mOnTouchEvent;
+  private LuaObject mOnActivityReenter;
   private String localDir;
 
   private String odexDir;
@@ -279,6 +280,12 @@ public class LuaActivity extends AppCompatActivity
     if (mOnKeyLongPress.isNil()) mOnKeyLongPress = null;
     mOnTouchEvent = L.getLuaObject("onTouchEvent");
     if (mOnTouchEvent.isNil()) mOnTouchEvent = null;
+    LuaObject onActivityReenter = L.getLuaObject("onActivityReenter");
+    if (onActivityReenter.isFunction()) {
+        mOnActivityReenter = onActivityReenter;
+      } else {
+        mOnActivityReenter = null;
+    }
 
     // 注册新的返回手势回调（Android 13+ 推荐）
     getOnBackPressedDispatcher()
@@ -730,6 +737,19 @@ public class LuaActivity extends AppCompatActivity
       }
     }
     return super.onTouchEvent(event);
+  }
+  
+  @Override
+  @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+  public void onActivityReenter(int resultCode, Intent data) {
+      super.onActivityReenter(resultCode, data);
+      if (mOnActivityReenter != null) {
+          try {
+              mOnActivityReenter.call(resultCode, data);
+          } catch (LuaException e) {
+              sendError("onActivityReenter", e);
+          }
+      }
   }
 
   @Override
