@@ -184,6 +184,7 @@ wds = {
     "MaterialToolbar",
     "MaterialButton",
     "MaterialTextView",
+    "MaterialTextField",
     "RangeSlider"
   },
   {
@@ -329,6 +330,7 @@ wds2 = {
     "Material 工具栏",
     "Material 按钮",
     "Material 文本视图",
+    "Material 文本输入框",
     "范围滑块"
   },
   {
