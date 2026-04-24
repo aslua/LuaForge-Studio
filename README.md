@@ -1,5 +1,8 @@
 # 更新日志
 
+## 1.3.0
+- 增加 com.luaforge.studio.widget.textfield.MaterialTextField 组件
+
 ## 1.2.1
 - 增加 onActivityReenter 回调函数
 
