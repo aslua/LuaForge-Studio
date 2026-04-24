@@ -1,5 +1,9 @@
 # 更新日志
 
+## 1.4.0
+- 优化补全数据加载机制：检测到版本变更时自动重建补全数据缓存，确保代码补全与新版本一致
+- 优化应用启动流程
+
 ## 1.3.0
 - 增加 com.luaforge.studio.widget.textfield.MaterialTextField 组件
 
