@@ -6,6 +6,7 @@ import android.util.AttributeSet
 import android.util.TypedValue
 import android.view.LayoutInflater
 import android.view.View
+import androidx.annotation.Keep
 import java.lang.CharSequence
 import android.text.TextWatcher
 import android.widget.FrameLayout
@@ -14,6 +15,7 @@ import com.google.android.material.textfield.TextInputLayout
 import com.google.android.material.textfield.TextInputEditText
 import com.luaforge.studio.core.R
 
+@Keep
 class MaterialTextField @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
