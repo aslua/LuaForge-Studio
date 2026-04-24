@@ -100,7 +100,12 @@ class SplashWelcome : ComponentActivity() {
 
         coroutineScope {
             launch(Dispatchers.IO) {
-                CompletionDataManager.initialize(this@SplashWelcome)
+                // 根据版本是否变更，决定是强制重新加载还是普通初始化
+                if (isVersionChanged) {
+                    CompletionDataManager.reload(this@SplashWelcome)
+                } else {
+                    CompletionDataManager.initialize(this@SplashWelcome)
+                }
                 EditorStateUtil.cleanupExpiredStateFiles(this@SplashWelcome)
                 EditorStateUtil.cleanupAllNonExistentFiles(this@SplashWelcome)
             }
