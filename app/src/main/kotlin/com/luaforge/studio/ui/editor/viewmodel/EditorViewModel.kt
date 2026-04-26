@@ -2,6 +2,7 @@ package com.luaforge.studio.ui.editor.viewmodel
 
 import android.graphics.Paint
 import android.content.Context
+import android.graphics.drawable.GradientDrawable
 import android.os.Build
 import android.view.ViewGroup
 import androidx.annotation.RequiresApi
