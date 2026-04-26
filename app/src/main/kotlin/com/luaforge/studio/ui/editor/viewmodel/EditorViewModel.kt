@@ -664,7 +664,7 @@ class EditorViewModel : ViewModel(), CompletionDataManager.OnCompletionDataListe
             verticalScrollbarThumbDrawable = GradientDrawable().apply {
                 shape = GradientDrawable.RECTANGLE
                 cornerRadius = 8f * density
-                setColor(0xFF2E6A44.toInt())
+                setColor(Color.Transparent.copy(alpha = 0.2f).toArgb())
             }
             
             isHorizontalScrollBarEnabled = false
